@@ -43,7 +43,7 @@
         "endroid/qr-code": "4.4.8",
         "enqueue/enqueue": "0.10.16",
         "enqueue/enqueue-bundle": "0.10.8",
-        "enqueue/rdkafka": "0.10.16",
+        "enqueue/rdkafka": "0.10.19",
         "enqueue/redis": "0.10.9",
         "enqueue/simple-client": "0.10.8",
         "enqueue/sns": "0.10.18",
