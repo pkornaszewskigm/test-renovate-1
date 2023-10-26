@@ -1,0 +1,18 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "assigneesFromCodeOwners": false,
+  "reviewersFromCodeOwners": true,
+  "automerge": false,
+  "logFileLevel": "debug",
+  "branchPrefix": "feature/renovate_",
+  "commitMessagePrefix": "RENOVATEBOT | chore(deps):",
+  "labels": [
+    "chore"
+  ]
+}

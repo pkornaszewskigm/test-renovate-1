@@ -1,0 +1,293 @@
+{
+    "name": "musement/musement-core",
+    "type": "project",
+    "license": "proprietary",
+    "description": "Musement Core - Symfony Application",
+    "require": {
+        "php": ">=7.4 || >= 8.0",
+        "ext-ctype": "*",
+        "ext-curl": "*",
+        "ext-dom": "*",
+        "ext-gd": "*",
+        "ext-imap": "*",
+        "ext-intl": "*",
+        "ext-json": "*",
+        "ext-libxml": "*",
+        "ext-mbstring": "*",
+        "ext-openssl": "*",
+        "ext-pcntl": "*",
+        "ext-pdo": "*",
+        "ext-posix": "*",
+        "ext-redis": "*",
+        "ext-simplexml": "*",
+        "ext-soap": "*",
+        "ext-xmlwriter": "*",
+        "ext-zip": "*",
+        "ext-zlib": "*",
+        "akeneo/oauth-server-bundle": "^2.0",
+        "aws/aws-sdk-php": "~3.0",
+        "beberlei/assert": "^3.0",
+        "beberlei/doctrineextensions": "^1.0",
+        "cache/redis-adapter": "^1.1",
+        "cache/simple-cache-bridge": "^1.1",
+        "cocur/slugify": "^3.1",
+        "composer/semver": "^3.2",
+        "configcat/configcat-client": "^5.3",
+        "craue/formflow-bundle": "^3.6",
+        "datadog/php-datadogstatsd": "1.5.*",
+        "doctrine/doctrine-bundle": "^2.5",
+        "doctrine/doctrine-fixtures-bundle": "^3.3",
+        "doctrine/doctrine-migrations-bundle": "^2.2",
+        "doctrine/orm": "^2.9",
+        "elasticsearch/elasticsearch": "^7.10",
+        "endroid/qr-code": "^4.4",
+        "enqueue/enqueue": "^0.10.10",
+        "enqueue/enqueue-bundle": "^0.10.1",
+        "enqueue/rdkafka": "^0.10.16",
+        "enqueue/redis": "^0.10.1",
+        "enqueue/simple-client": "^0.10.1",
+        "enqueue/sns": "^0.10.1",
+        "enqueue/sqs": "^0.10.1",
+        "firebase/php-jwt": "^6.5.0",
+        "friendsofphp/proxy-manager-lts": "^1.0",
+        "friendsofsymfony/ckeditor-bundle": "^2.4",
+        "friendsofsymfony/jsrouting-bundle": "^2.0",
+        "friendsofsymfony/rest-bundle": "^3.0",
+        "gedmo/doctrine-extensions": "^3.1",
+        "giggsey/libphonenumber-for-php": "^8.9",
+        "google/cloud-translate": "1.12.*",
+        "guzzlehttp/guzzle": "^6.5",
+        "h4cc/wkhtmltopdf-amd64": "0.12.3",
+        "handcraftedinthealps/rest-routing-bundle": "^1.0",
+        "happyr/message-serializer": "^0.5",
+        "jcroll/foursquare-api-client": "~3.0",
+        "jms/serializer-bundle": "^3.0",
+        "jms/translation-bundle": "^1.6",
+        "kevinrob/guzzle-cache-middleware": "^3.2",
+        "knplabs/knp-snappy-bundle": "^1.9",
+        "laminas/laminas-barcode": "^2.7",
+        "laminas/laminas-mail": "^2.16",
+        "laminas/laminas-mime": "^2.9",
+        "laminas/laminas-servicemanager": "^3.0",
+        "laminas/laminas-stdlib": "^3.0",
+        "laminas/laminas-validator": "^2.12",
+        "limenius/liform-bundle": "^0.13",
+        "megahertz/guzzle-tor": "^1.0.4",
+        "moneyphp/money": "^3.2",
+        "omnipay/common": "^3.2.0",
+        "omnipay/paypal": "^3.0.0",
+        "omnipay/stripe": "^3.1@dev",
+        "pagerfanta/core": "^2.7",
+        "pagerfanta/doctrine-orm-adapter": "^2.7",
+        "patrickschur/language-detection": "^5.2",
+        "paypal/paypal-checkout-sdk": "1.0.1",
+        "php-http/guzzle6-adapter": "^2.0",
+        "phpoffice/phpspreadsheet": "^1.16",
+        "ramsey/uuid": "~3.4",
+        "riskified/php_sdk": "^1.9.2",
+        "sendgrid/sendgrid": "^7.4",
+        "sensio/framework-extra-bundle": "^6.0",
+        "snc/redis-bundle": "^3.6",
+        "sonata-project/admin-bundle": "^4",
+        "sonata-project/block-bundle": "^4",
+        "sonata-project/doctrine-orm-admin-bundle": "^4",
+        "sonata-project/form-extensions": "^1.12",
+        "sonata-project/media-bundle": "^4",
+        "sonata-project/twig-extensions": "^1.9",
+        "sonata-project/user-bundle": "^5",
+        "sroze/messenger-enqueue-transport": "^0.6",
+        "stof/doctrine-extensions-bundle": "^1.3",
+        "symfony/asset": "^4.4",
+        "symfony/config": "^4.4",
+        "symfony/console": "^4.4",
+        "symfony/dependency-injection": "^4.4",
+        "symfony/filesystem": "^4.4",
+        "symfony/flex": "^1.17",
+        "symfony/form": "^4.4",
+        "symfony/framework-bundle": "^4.4",
+        "symfony/http-client": "^4.4",
+        "symfony/intl": "^4.4",
+        "symfony/mailer": "^5.4",
+        "symfony/messenger": "^4.4",
+        "symfony/mime": "^5.4",
+        "symfony/monolog-bundle": "^3.5",
+        "symfony/notifier": "^5.3",
+        "symfony/process": "^4.4",
+        "symfony/property-info": "^4.4",
+        "symfony/proxy-manager-bridge": "^4.4",
+        "symfony/routing": "^4.4",
+        "symfony/security-bundle": "^4.4",
+        "symfony/serializer": "^4.4",
+        "symfony/swiftmailer-bundle": "^3.4",
+        "symfony/twig-bundle": "^4.4",
+        "symfony/validator": "^4.4",
+        "symfony/workflow": "^5.4",
+        "symfony/yaml": "^4.4",
+        "tgalopin/html-sanitizer": "^1.5",
+        "tijsverkoyen/css-to-inline-styles": "~2.2",
+        "twig/twig": "^2.14.11",
+        "vonage/client-core": "^2.9"
+    },
+    "require-dev": {
+        "coduo/php-matcher": "^5.0",
+        "dama/doctrine-test-bundle": "^6.7",
+        "dms/phpunit-arraysubset-asserts": "^0.3.0",
+        "jangregor/phpstan-prophecy": "^1.0",
+        "johnkary/phpunit-speedtrap": "^4",
+        "phparkitect/phparkitect": "^0.2.18",
+        "phpspec/prophecy-phpunit": "^2.0",
+        "phpstan/extension-installer": "^1.1",
+        "phpstan/phpstan": "^1.7.13",
+        "phpstan/phpstan-doctrine": "^1.3",
+        "phpstan/phpstan-phpunit": "^1.1",
+        "phpstan/phpstan-symfony": "^1.2",
+        "phpunit/phpunit": "^9.5",
+        "symfony/debug-bundle": "^4.4",
+        "symfony/dotenv": "^4.4",
+        "symfony/maker-bundle": "^1.14",
+        "symfony/panther": "^1.1",
+        "symfony/phpunit-bridge": "^5.3",
+        "symfony/web-profiler-bundle": "^4.4",
+        "symplify/easy-coding-standard": "^10",
+        "wsdl2phpgenerator/wsdl2phpgenerator": "dev-root-relative"
+    },
+    "conflict": {
+        "symfony/symfony": "*"
+    },
+    "replace": {
+        "symfony/polyfill-ctype": "*",
+        "symfony/polyfill-intl-icu": "*",
+        "symfony/polyfill-iconv": "*",
+        "symfony/polyfill-mbstring": "*",
+        "symfony/polyfill-xml": "*",
+        "symfony/polyfill-php71": "*",
+        "symfony/polyfill-php70": "*",
+        "symfony/polyfill-php56": "*",
+        "paragonie/random_compat": "*",
+        "ralouphie/getallheaders": "*"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "beta",
+    "scripts": {
+        "prepare-test-env": [
+            "bin/console cache:clear --no-warmup --no-ansi --no-interaction --no-debug --env=test",
+            "bin/console cache:warmup --no-ansi --no-interaction --no-debug --env=test",
+            "bin/console cache:pool:clear cache.app_clearer --env=test --no-interaction",
+            "bin/console doctrine:database:create --if-not-exists --no-ansi --no-interaction --no-debug --env=test",
+            "bin/console doctrine:schema:update --force --no-ansi --no-interaction --no-debug --env=test"
+        ],
+        "after-test-env": [
+            "bin/console doctrine:schema:drop --force --no-ansi --no-interaction --no-debug --env=test"
+        ],
+
+        "after-build": [
+            "bin/console musement:deploy:helper --alive-file-action=remove --no-ansi --no-interaction --no-debug --env=prod",
+            "bin/console assets:install web --no-ansi --no-interaction --no-debug --env=prod",
+            "bin/console ckeditor:install --exclude=samples --release=standard --tag=4.16.2 --clear=drop --no-progress-bar --no-ansi --no-interaction --env=prod",
+            "bin/console cache:clear --no-warmup --no-ansi --no-interaction --no-debug --env=dev",
+            "bin/console cache:clear --no-warmup --no-ansi --no-interaction --no-debug --env=test",
+            "bin/console cache:clear --no-warmup --no-ansi --no-interaction --no-debug --env=prod"
+        ],
+        "after-deploy": [
+            "bin/console cache:warmup --no-ansi --no-interaction --no-debug --env=prod",
+            "bin/console musement:deploy:helper --alive-file-action=create --no-ansi --no-interaction --no-debug --env=prod"
+        ],
+
+        "msm-check-sec": [
+            "local-php-security-checker --update-cache",
+            "local-php-security-checker"
+        ],
+        "msm-check-cs": [
+            "bin/msm-cs-fix.sh --dry-run"
+        ],
+        "msm-check": [
+            "@msm-check-sec",
+            "@msm-check-cs"
+        ],
+        "msm-export-routes": [
+            "bin/console fos:js-routing:dump --env=prod --no-debug --ansi --no-interaction"
+        ],
+
+        "msm-ckeditor": "Musement\\CommonBundle\\Composer\\CustomScripts::installCKEditorAssets",
+        "msm-install-git-hooks": "Musement\\CommonBundle\\Composer\\CustomScripts::installGitHooks",
+        "symfony-scripts": [
+            "bin/console cache:clear --no-warmup --no-interaction --no-debug",
+            "bin/console cache:warmup --no-interaction --no-debug",
+            "bin/console ckeditor:install --exclude=samples --release=standard --tag=4.16.2 --clear=drop --no-progress-bar --no-ansi --no-interaction --env=prod",
+            "bin/console assets:install web --no-interaction --no-debug"
+        ],
+        "post-update-cmd": [
+            "@msm-install-git-hooks",
+            "@symfony-scripts"
+        ],
+        "post-install-cmd": [
+            "@msm-install-git-hooks",
+            "@symfony-scripts"
+        ],
+        "auto-scripts": {
+            "composer msm-check-sec": "script",
+            "cache:clear": "symfony-cmd",
+            "assets:install %PUBLIC_DIR%": "symfony-cmd"
+        }
+    },
+    "extra": {
+        "symfony": {
+            "require": "^4.4"
+        },
+        "incenteev-parameters": {
+            "file": "app/config/parameters.yml",
+            "dist-file": "app/config/parameters.yml.dist",
+            "keep-outdated": false
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/musement/LiformBundle"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/musement/Liform"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mbeccati/wsdl2phpgenerator"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Musement\\": "src/Musement",
+            "Application\\Sonata\\": "src/Application/Sonata/",
+            "QualityAssurance\\": "src/QualityAssurance/",
+            "Omnipay\\AdyenCSE\\": "src/Omnipay/AdyenCSE/"
+        },
+        "exclude-from-classmap": [
+            "src/Musement/*/*/Test/",
+            "src/Musement/*/*/Tests/",
+            "src/Musement/*/*/*/Tests/"
+        ],
+        "classmap": [
+            "src/Application.php",
+            "src/Kernel.php"
+        ],
+        "files": ["config/autoload.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "QualityAssurance\\": "vendor/musement/core-fixtures/src"
+        },
+        "files": ["vendor/symfony/var-dumper/Resources/functions/dump.php"]
+    },
+    "config": {
+        "process-timeout": 3600,
+        "preferred-install": {
+            "musement/*": "dist"
+        },
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true,
+            "phpstan/extension-installer": true,
+            "symfony/flex": true
+        }
+    }
+}
