@@ -57,7 +57,7 @@
         "giggsey/libphonenumber-for-php": "8.9.15",
         "google/cloud-translate": "1.12.12",
         "guzzlehttp/guzzle": "6.5.8",
-        "h4cc/wkhtmltopdf-amd64": "0.12.3",
+        "h4cc/wkhtmltopdf-amd64": "0.12.4",
         "handcraftedinthealps/rest-routing-bundle": "1.0.5",
         "happyr/message-serializer": "0.5.1",
         "jcroll/foursquare-api-client": "3.0.2",
