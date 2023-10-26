@@ -14,5 +14,6 @@
   "commitMessagePrefix": "RENOVATEBOT | chore(deps):",
   "labels": [
     "chore"
-  ]
+  ],
+  "rangeStrategy": "pin"
 }
