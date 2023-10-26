@@ -80,7 +80,7 @@
         "pagerfanta/core": "2.7.2",
         "pagerfanta/doctrine-orm-adapter": "2.7.2",
         "patrickschur/language-detection": "5.2.0",
-        "paypal/paypal-checkout-sdk": "1.0.1",
+        "paypal/paypal-checkout-sdk": "1.0.2",
         "php-http/guzzle6-adapter": "2.0.2",
         "phpoffice/phpspreadsheet": "1.18.0",
         "ramsey/uuid": "3.9.6",
