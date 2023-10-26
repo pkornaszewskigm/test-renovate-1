@@ -15,10 +15,5 @@
   "labels": [
     "chore"
   ],
-  "rangeStrategy": "pin",
-  "packageRules": [
-    {
-      "versioning": "semver-coerced"
-    }
-  ]
+  "rangeStrategy": "pin"
 }
