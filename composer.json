@@ -4,7 +4,7 @@
     "license": "proprietary",
     "description": "Musement Core - Symfony Application",
     "require": {
-        "php": ">=7.4",
+        "php": "^7.4",
         "ext-ctype": "*",
         "ext-curl": "*",
         "ext-dom": "*",
@@ -26,7 +26,7 @@
         "ext-zlib": "*",
         "akeneo/oauth-server-bundle": "^2.0",
         "aws/aws-sdk-php": "~3.0",
-        "beberlei/assert": "^3.0",
+        "beberlei/assert": "v3.3.2",
         "beberlei/doctrineextensions": "^1.0",
         "cache/redis-adapter": "^1.1",
         "cache/simple-cache-bridge": "^1.1",
@@ -287,7 +287,8 @@
         "allow-plugins": {
             "composer/package-versions-deprecated": true,
             "phpstan/extension-installer": true,
-            "symfony/flex": true
+            "symfony/flex": true,
+            "php-http/discovery": false
         }
     }
 }
