@@ -12,5 +12,9 @@
   "labels": [
     "chore"
   ],
-  "rangeStrategy": "update-lockfile"
+  "rangeStrategy": "update-lockfile",
+  "composer": {
+    "enabled": true,
+    "rollbackPrs": false
+  }
 }
