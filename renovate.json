@@ -5,6 +5,7 @@
   ],
   "assigneesFromCodeOwners": false,
   "reviewersFromCodeOwners": true,
+  "prConcurrentLimit": 5,
   "automerge": false,
   "logFileLevel": "debug",
   "branchPrefix": "feature/renovate_",
