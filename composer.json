@@ -45,7 +45,7 @@
         "enqueue/enqueue-bundle": "0.10.8",
         "enqueue/rdkafka": "0.10.16",
         "enqueue/redis": "0.10.9",
-        "enqueue/simple-client": "0.10.8",
+        "enqueue/simple-client": "0.10.19",
         "enqueue/sns": "0.10.18",
         "enqueue/sqs": "0.10.8",
         "firebase/php-jwt": "6.5.0",
