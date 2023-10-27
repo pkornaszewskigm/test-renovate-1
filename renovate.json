@@ -3,9 +3,6 @@
   "extends": [
     "config:base"
   ],
-  "lockFileMaintenance": {
-    "enabled": true
-  },
   "assigneesFromCodeOwners": false,
   "reviewersFromCodeOwners": true,
   "automerge": false,
@@ -15,5 +12,5 @@
   "labels": [
     "chore"
   ],
-  "rangeStrategy": "pin"
+  "rangeStrategy": "update-lockfile"
 }
