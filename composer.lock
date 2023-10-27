@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0ad3f9bfc82a34f61375fc695d9face3",
+    "content-hash": "16e23d0a264d7671e53f825a39b54eef",
     "packages": [
         {
             "name": "akeneo/oauth-server-bundle",
@@ -1084,16 +1084,16 @@
         },
         {
             "name": "configcat/configcat-client",
-            "version": "v5.3.1",
+            "version": "v5.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/configcat/php-sdk.git",
-                "reference": "18b0c1bb1c5bec0ea6f4c68e1f898116562a1bf8"
+                "reference": "48dcf3f6e77dcf1afbfc6343025cdc5265000d79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/configcat/php-sdk/zipball/18b0c1bb1c5bec0ea6f4c68e1f898116562a1bf8",
-                "reference": "18b0c1bb1c5bec0ea6f4c68e1f898116562a1bf8",
+                "url": "https://api.github.com/repos/configcat/php-sdk/zipball/48dcf3f6e77dcf1afbfc6343025cdc5265000d79",
+                "reference": "48dcf3f6e77dcf1afbfc6343025cdc5265000d79",
                 "shasum": ""
             },
             "require": {
@@ -1102,7 +1102,7 @@
                 "monolog/monolog": "^1.6|^2.0",
                 "php": ">=5.5",
                 "psr/log": "^1.1",
-                "z4kn4fein/php-semver": "^1.0"
+                "z4kn4fein/php-semver": "^1.1"
             },
             "require-dev": {
                 "illuminate/cache": "^5.0",
@@ -1143,9 +1143,9 @@
             ],
             "support": {
                 "issues": "https://github.com/configcat/php-sdk/issues",
-                "source": "https://github.com/configcat/php-sdk/tree/v5.3.1"
+                "source": "https://github.com/configcat/php-sdk/tree/v5.4.1"
             },
-            "time": "2021-07-15T10:42:45+00:00"
+            "time": "2022-03-10T16:45:23+00:00"
         },
         {
             "name": "craue/formflow-bundle",
@@ -7858,16 +7858,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.25.3",
+            "version": "1.27.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "fa82921994db851a8becaf3787a9e73c5976b6f1"
+                "reference": "904713c5929655dc9b97288b69cfeedad610c9a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fa82921994db851a8becaf3787a9e73c5976b6f1",
-                "reference": "fa82921994db851a8becaf3787a9e73c5976b6f1",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/904713c5929655dc9b97288b69cfeedad610c9a1",
+                "reference": "904713c5929655dc9b97288b69cfeedad610c9a1",
                 "shasum": ""
             },
             "require": {
@@ -7881,11 +7881,10 @@
                 "aws/aws-sdk-php": "^2.4.9 || ^3.0",
                 "doctrine/couchdb": "~1.0@dev",
                 "graylog2/gelf-php": "~1.0",
-                "jakub-onderka/php-parallel-lint": "0.9",
                 "php-amqplib/php-amqplib": "~2.4",
                 "php-console/php-console": "^3.1.3",
+                "phpstan/phpstan": "^0.12.59",
                 "phpunit/phpunit": "~4.5",
-                "phpunit/phpunit-mock-objects": "2.3.0",
                 "ruflin/elastica": ">=0.90 <3.0",
                 "sentry/sentry": "^0.13",
                 "swiftmailer/swiftmailer": "^5.3|^6.0"
@@ -7904,11 +7903,6 @@
                 "sentry/sentry": "Allow sending log messages to a Sentry server"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Monolog\\": "src/Monolog"
@@ -7934,9 +7928,19 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/1.25.3"
+                "source": "https://github.com/Seldaek/monolog/tree/1.27.1"
             },
-            "time": "2019-12-20T14:15:16+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/Seldaek",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/monolog/monolog",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-06-09T08:53:42+00:00"
         },
         {
             "name": "mtdowling/jmespath.php",
@@ -17360,23 +17364,23 @@
         },
         {
             "name": "z4kn4fein/php-semver",
-            "version": "v1.0.1",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/z4kn4fein/php-semver.git",
-                "reference": "9b0dba84af87d7dc4a97087893f2874184ee8f97"
+                "reference": "6ca4561055daeaed96e5cf11c081693f75669e52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/z4kn4fein/php-semver/zipball/9b0dba84af87d7dc4a97087893f2874184ee8f97",
-                "reference": "9b0dba84af87d7dc4a97087893f2874184ee8f97",
+                "url": "https://api.github.com/repos/z4kn4fein/php-semver/zipball/6ca4561055daeaed96e5cf11c081693f75669e52",
+                "reference": "6ca4561055daeaed96e5cf11c081693f75669e52",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5"
+                "php": ">=7.1"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4"
+                "phpunit/phpunit": "^7|^8"
             },
             "type": "library",
             "autoload": {
@@ -17394,7 +17398,7 @@
                     "email": "peter.csajtai@outlook.com"
                 }
             ],
-            "description": "Semantic version utility library with parser and comparator written in PHP. It provides full support for the semver 2.0.0 standards.",
+            "description": "Semantic Versioning library for PHP. It implements the full semantic version 2.0.0 specification and provides ability to parse, compare, and increment semantic versions.",
             "homepage": "https://github.com/z4kn4fein/php-semver",
             "keywords": [
                 "Semantic version",
@@ -17404,9 +17408,9 @@
             ],
             "support": {
                 "issues": "https://github.com/z4kn4fein/php-semver/issues",
-                "source": "https://github.com/z4kn4fein/php-semver/tree/v1.0.1"
+                "source": "https://github.com/z4kn4fein/php-semver/tree/v1.2.0"
             },
-            "time": "2020-01-03T01:04:18+00:00"
+            "time": "2022-03-21T10:34:32+00:00"
         }
     ],
     "packages-dev": [
@@ -20830,7 +20834,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.4",
+        "php": "^7.4.33",
         "ext-ctype": "*",
         "ext-curl": "*",
         "ext-dom": "*",
@@ -20852,5 +20856,5 @@
         "ext-zlib": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
