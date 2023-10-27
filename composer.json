@@ -4,7 +4,7 @@
     "license": "proprietary",
     "description": "Musement Core - Symfony Application",
     "require": {
-        "php": "7.4.33",
+        "php": "^7.4",
         "ext-ctype": "*",
         "ext-curl": "*",
         "ext-dom": "*",
