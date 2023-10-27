@@ -4,7 +4,7 @@
     "license": "proprietary",
     "description": "Musement Core - Symfony Application",
     "require": {
-        "php": "7.4.33",
+        "php": "^7.4.33",
         "ext-ctype": "*",
         "ext-curl": "*",
         "ext-dom": "*",
@@ -286,7 +286,8 @@
         "sort-packages": true,
         "allow-plugins": {
             "phpstan/extension-installer": true,
-            "symfony/flex": true
+            "symfony/flex": true,
+            "php-http/discovery": true
         }
     }
 }
