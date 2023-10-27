@@ -12,7 +12,9 @@
   "labels": [
     "chore"
   ],
-  "rangeStrategy": "update-lockfile",
+  "rangeStrategy": "pin",
+  "semanticCommits": true,
+  "separateMinorPatch": true,
   "composer": {
     "enabled": true,
     "rollbackPrs": false
