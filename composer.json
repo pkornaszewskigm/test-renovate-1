@@ -41,7 +41,7 @@
         "doctrine/orm": "2.9.6",
         "elasticsearch/elasticsearch": "7.17.2",
         "endroid/qr-code": "4.4.8",
-        "enqueue/enqueue": "0.10.16",
+        "enqueue/enqueue": "0.10.19",
         "enqueue/enqueue-bundle": "0.10.8",
         "enqueue/rdkafka": "0.10.16",
         "enqueue/redis": "0.10.9",
