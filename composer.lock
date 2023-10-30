@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0ad3f9bfc82a34f61375fc695d9face3",
+    "content-hash": "9bc9ffc0dad59c9b949c2e90724f9248",
     "packages": [
         {
             "name": "akeneo/oauth-server-bundle",
@@ -8340,16 +8340,16 @@
         },
         {
             "name": "omnipay/stripe",
-            "version": "v3.2.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/omnipay-stripe.git",
-                "reference": "20812498efedc1079baae5fea96567fefd669105"
+                "reference": "fbf57b33c34f227695e83c1cc92d9844f88ed5e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/omnipay-stripe/zipball/20812498efedc1079baae5fea96567fefd669105",
-                "reference": "20812498efedc1079baae5fea96567fefd669105",
+                "url": "https://api.github.com/repos/thephpleague/omnipay-stripe/zipball/fbf57b33c34f227695e83c1cc92d9844f88ed5e8",
+                "reference": "fbf57b33c34f227695e83c1cc92d9844f88ed5e8",
                 "shasum": ""
             },
             "require": {
@@ -8360,6 +8360,7 @@
                 "phpro/grumphp": "^0.14",
                 "squizlabs/php_codesniffer": "^3"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -8399,7 +8400,7 @@
                 "issues": "https://github.com/thephpleague/omnipay-stripe/issues",
                 "source": "https://github.com/thephpleague/omnipay-stripe/tree/v3.2.0"
             },
-            "time": "2022-03-22T10:58:41+00:00"
+            "time": "2020-06-30T21:21:16+00:00"
         },
         {
             "name": "pagerfanta/core",
@@ -20825,6 +20826,7 @@
     "aliases": [],
     "minimum-stability": "beta",
     "stability-flags": {
+        "omnipay/stripe": 20,
         "wsdl2phpgenerator/wsdl2phpgenerator": 20
     },
     "prefer-stable": true,
@@ -20852,5 +20854,8 @@
         "ext-zlib": "*"
     },
     "platform-dev": [],
+    "platform-overrides": {
+        "php": "7.4.33"
+    },
     "plugin-api-version": "2.3.0"
 }
